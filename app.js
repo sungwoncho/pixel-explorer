@@ -1,5 +1,5 @@
-var explore = require('./lib/explore');
+var find = require('./lib/find');
 var draw = require('./lib/draw');
 
-module.exports.explore = explore;
+module.exports.find = find;
 module.exports.draw = draw;

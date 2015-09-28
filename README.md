@@ -8,10 +8,11 @@ Explore the screen and look for the pixels with the desired color. Optionally dr
 
 ## API
 
-### explore(x, y, color, size)
+### find(x, y, color, size)
 
-Explores the rectangle with the length of the side equal to `size` for the
-`color`. The rectangle begins at `x` and `y` of the screen.
+Finds the pixels with the desired `color`. Search through all pixels in a
+rectangle whose sides are of length `size`. The rectangle begins at `x` and `y`
+of the screen.
 
 Returns an array of objects containing x and y coordinates of the
 pixels.
