@@ -1,13 +1,22 @@
 {
   "name": "pixel-explorer",
   "version": "0.1.0",
-  "description": "Explore pixels and find desired color",
+  "description": "Get coordinates of the pixels of desired color",
+  "keywords": [
+    "pixel",
+    "color",
+    "screen"
+  ],
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Sung Won Cho <mikeswcho@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sungwoncho/pixel-explorer"
+  },
   "dependencies": {
     "cli-table": "^0.3.1",
     "color": "^0.10.1",
