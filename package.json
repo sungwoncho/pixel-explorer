@@ -1,0 +1,15 @@
+{
+  "name": "pixel-explorer",
+  "version": "0.1.0",
+  "description": "Explore pixels and find desired color",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^0.10.1",
+    "robotjs": "^0.2.4"
+  }
+}
