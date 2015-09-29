@@ -1,3 +1,6 @@
-langauge: node_js
+language: node_js
 node_js:
   - "0.12"
+sudo: required
+before_install:
+  - sudo apt-get install libxtst-dev libpng++-dev
