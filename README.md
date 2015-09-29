@@ -1,5 +1,7 @@
 # Pixel Explorer
 
+[![Build Status](https://travis-ci.org/sungwoncho/pixel-explorer.svg?branch=master)](https://travis-ci.org/sungwoncho/pixel-explorer)
+
 Explore the screen and look for the pixels with the desired color. Optionally draw the output.
 
 ## Installation
