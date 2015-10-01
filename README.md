@@ -45,8 +45,10 @@ pixelExplorer.find(350, 400, '423c42', 6);
 
 ### draw(x, y, size, color)
 
-Explores the area for the pixels and draws the result in the console. The color
-argument is optional. If not provided, output will contain all pixels.
+Find the specific color in the rectangle specified by the arguments and draws
+the result in the console.
+
+*Limitation: the output may not fit in the console depending on the size*
 
 ```javascript
 var pixelExplorer = require('pixel-explorer');
@@ -70,6 +72,19 @@ pixelExplorer.draw(350, 400, 6, '423c42');
 //  │ 405 │     │     │     │     │     │     │
 //  └─────┴─────┴─────┴─────┴─────┴─────┴─────┘
 ```
+
+## Contributing
+
+Open issues with bugs or feature requests.
+
+### Run test
+
+    npm test
+
+### Roadmap
+
+* Better draw using node-canvas and png output
+* Compare the explored output with pre-set values
 
 ## License
 
