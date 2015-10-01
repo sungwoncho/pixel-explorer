@@ -23,7 +23,7 @@ describe("find", function() {
       }
     });
 
-    var result = find(130, 140, 'fafafa', 5);
+    var result = find(130, 140, 5, 'fafafa');
 
     expect(result.length).to.equal(2);
     expect(_.pluck(result, 'x')).to.include(131);
